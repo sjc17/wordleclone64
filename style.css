@@ -1,0 +1,57 @@
+.col {
+  border: solid 1px white;
+  color: black;
+  height: 2rem;
+  background-color: lightgrey;
+  padding: 0;
+}
+.currentGuess {
+  color: rgb(0, 0, 0);
+}
+.correct {
+  background-color: rgb(0, 94, 0);
+  color: white;
+}
+.misplaced {
+  background-color: rgb(143, 143, 43);
+  color: white;
+}
+.incorrect {
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
+.container {
+  position: relative;
+  padding: 0px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+}
+#startNewGame {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+#startNewGame:hover {
+  color: rgb(100, 100, 100);
+}
+#menu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  margin: 0px;
+  background-color: rgb(220, 220, 220);
+  width: 100%;
+  min-height: 200px;
+}
+.hidden {
+  display: none;
+}
+
